@@ -150,4 +150,33 @@ h1 {
   .right {
     font-size: 1rem;
   }
+  .between {
+    font-size: 1rem;
+    position: absolute;
+    top: 4rem;
+    right: 5px;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .guess {
+    width: 12rem;
+  }
+  .btn {
+    padding: 1rem 1rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .between {
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    margin: 5px;
+  }
+  .number {
+    font-size: 4rem;
+  }
 }
