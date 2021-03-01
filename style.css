@@ -122,7 +122,7 @@ h1 {
     font-size: 3rem;
     width: 70%;
     left: 25rem;
-    top: 4.4rem;
+    top: 5rem;
   }
   .number {
     font-size: 4rem;
@@ -136,7 +136,7 @@ h1 {
 
   .again {
     position: absolute;
-    left: 59rem;
+    left: 52rem;
     top: 4rem;
   }
 }
