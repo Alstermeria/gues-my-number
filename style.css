@@ -117,6 +117,29 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+@media only screen and (max-width: 767.98px) {
+  h1 {
+    font-size: 3rem;
+    width: 70%;
+    left: 25rem;
+    top: 4rem;
+  }
+  .number {
+    font-size: 4rem;
+    width: 10rem;
+    padding: 2rem 0rem;
+  }
+  .message {
+    margin-bottom: 2rem;
+    height: 3rem;
+  }
+
+  .again {
+    position: absolute;
+    left: 59rem;
+    top: 4rem;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .between {
@@ -126,10 +149,21 @@ h1 {
     right: 5px;
     margin: 20px;
   }
+  .message {
+    margin-bottom: 8rem;
+    height: 3rem;
+  }
+
+  .number {
+    font-size: 5rem;
+    width: 13rem;
+    padding: 3rem 0rem;
+  }
 
   .again {
     position: absolute;
     left: 1rem;
+    top: 2rem;
   }
 
   .guess {
@@ -143,6 +177,9 @@ h1 {
   }
   h1 {
     font-size: 3rem;
+    width: 100%;
+    left: 50%;
+    top: 52%;
   }
 }
 
@@ -161,7 +198,8 @@ h1 {
 
 @media only screen and (max-width: 365px) {
   .guess {
-    width: 12rem;
+    width: 13rem;
+    font-size: 3rem;
   }
   .btn {
     padding: 1rem 1rem;
