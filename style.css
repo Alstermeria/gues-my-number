@@ -160,9 +160,20 @@ h1 {
   }
 
   .again {
-    position: absolute;
-    left: 56rem;
+    left: 50rem;
     top: 5rem;
+  }
+  .guess {
+    font-size: 3rem;
+    padding: 2rem 1rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    padding: 1.5rem 1.3rem;
+  }
+  .right {
+    width: 50rem;
   }
 }
 @media screen and (orientation: landscape) and (max-device-width: 667px) {
